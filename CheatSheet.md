@@ -116,6 +116,7 @@ yanked.
    3) type the comment token, // in C for example
    4) Escape
    5) Enjoy your commented lines!
+- you can use sed in vim by using :s/...... It also works on selections!
 
 ## Configuration
 - .vimrc
