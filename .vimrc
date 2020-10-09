@@ -35,7 +35,7 @@ nnoremap k gk
 autocmd BufWritePre * %s/\s\+$//e
 
 " Makefile
-autocmd FileType make set noexpandtab
+autocmd FileType make <buffer> set noexpandtab
 
 " brackets and quotes
 inoremap "" ""<left>
@@ -70,19 +70,3 @@ function MakeFunc()
 endfunction
 
 command Make exec MakeFunc ()
-
-" PDF Reader (kind of a hack)
-function ReadAsPDFfunc ()
-    sil !pdftotext -layout -nopgbrk %
-    :r %:r.txt
-    setlocal nonumber
-    setlocal cc=
-    setlocal nolist
-    setlocal nowrap
-    setlocal foldcolumn=1
-    sil !rm %:r.txt
-endfunction
-
-command ReadAsPDF exec ReadAsPDFfunc()
-
-autocmd BufRead *.pdf exec ReadAsPDFfunc ()

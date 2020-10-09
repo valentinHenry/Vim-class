@@ -14,10 +14,10 @@ Cheat-sheet vim
 - G end of file
 - [nb]gg jump to the line nb
 - w and e to jump between words
-- W and e to jump at the end
+- W and E to jump at the end
 - b to jump words backward
 
-## Windws, buffers, splits, tabs etc.
+## Windows, buffers, splits, tabs etc.
 - open a new buffer: :e [file_path]
 - split vim:
    - vertically: :vsp or [Control-w]v
@@ -40,7 +40,7 @@ Cheat-sheet vim
 - n to go to the next one, N the previous one (in the search order)
 
 ## Mods (3 of many)
-### Default
+### Normal
 - Only love
 
 ### Selection
@@ -54,6 +54,8 @@ Cheat-sheet vim
 - a: append (after cursor)
 - A: append at the end of the line
 - :set paste : pastemod (insert) (:set nopaste to disable)
+- o:
+- O:
 
 ## Operators / motions
 - delete: d removes (and yank) stuff
@@ -117,6 +119,7 @@ yanked.
    4) Escape
    5) Enjoy your commented lines!
 - you can use sed in vim by using :s/...... It also works on selections!
+- bang ! to launch commands
 
 ## Configuration
 - .vimrc
@@ -124,6 +127,6 @@ yanked.
 - Mappings
 - Functions
 
-## Best of all
-- :help <<<---- BEST COMMAND!!!!! (like really!!!)
+## best of all
+- :help <<<---- best command!!!!! (like really!!!)
 - vimtutor command
