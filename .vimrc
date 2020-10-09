@@ -51,7 +51,7 @@ map q: <nop>
 nnoremap Q <nop>
 
 " C main shortcut
-autocmd FileType c inoremap main<CR> int main(int argc, char *argv[])<CR>{<CR><CR>}<up><TAB>
+autocmd FileType c inoremap <buffer> main<CR> int main(int argc, char *argv[])<CR>{<CR><CR>}<up><TAB>
 
 " Header creator
 function HeaderFuncts()
@@ -71,7 +71,7 @@ endfunction
 
 command Make exec MakeFunc ()
 
-" PDF Reader
+" PDF Reader (kind of a hack)
 function ReadAsPDFfunc ()
     sil !pdftotext -layout -nopgbrk %
     :r %:r.txt

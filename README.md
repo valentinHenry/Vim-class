@@ -6,6 +6,10 @@ I definitely don't know everything about vim, I'm pretty much learning every
 day new stuff, but with this repo, I hope I'll share what I consider useful
 when using this wonderful editor.
 
+The cheatsheet is a list of commands and explanations of what I use the most
+in vim. It believe that using them increast the rapidity by a factor of at
+least nine thousands!!!!
+
 If you find something interesting in it, it's all yours!
 
 ## What's in this repo?
