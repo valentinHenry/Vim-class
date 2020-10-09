@@ -79,8 +79,8 @@ You can do a lot of stuff, by combining it:
 ...
 
 It also works with movements, for example:
-- change at the right of the cursor: cw
-- change the all word: caw
+- change the end of the word at the right of the cursor: cw
+- change the whole word the cursor is on: caw
 - copy from the cursor to the end of line: y$
 etc.
 
