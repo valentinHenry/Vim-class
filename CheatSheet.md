@@ -95,7 +95,7 @@ yanked.
    :packadd termdebug #to enable the built-in plugin
    :Termdebug [binary] #to launch the terminal
    ```
--
+
 ## Useful Tricks
 - Jump between ctags
    ```
@@ -110,13 +110,19 @@ yanked.
    ```
    runtime ftplugin/man.vim # to enable the built-in plugin
    ```
+- if you want to edit multiple lines at once, for, for examples a comment:
+   1) block select on the first column
+   2) I
+   3) type the comment token, // in C for example
+   4) Escape
+   5) Enjoy your commented lines!
 
 ## Configuration
 - .vimrc
 - Must have
 - Mappings
 - Functions
--
+
 ## Best of all
 - :help <<<---- BEST COMMAND!!!!! (like really!!!)
 - vimtutor command
