@@ -2,8 +2,8 @@ Vim class
 =========
 
 ## About
-I definitely don't know everything about vim, I'm pretty much learning every
-day new stuff, but with this repo, I hope I'll share what I consider useful
+I definitely don't know everything about vim. I'm pretty much learning new
+stuff everyday, but with this repo, I hope I'll share what I consider useful
 when using this wonderful editor.
 
 The cheatsheet is a list of commands and explanations of what I use the most
