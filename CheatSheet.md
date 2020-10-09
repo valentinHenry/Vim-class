@@ -55,7 +55,7 @@ Cheat-sheet vim
 - A: append at the end of the line
 - :set paste : pastemod (insert) (:set nopaste to disable)
 
-## Operators
+## Operators / motions
 - delete: d removes (and yank) stuff
 - change: c removes (and yank) suff and then switch to Insert mode
 - yank(copy): y
@@ -101,8 +101,8 @@ yanked.
    ```
    ctag -R .' #to create the tags
    ```
-   - go to declaration: [Alt-]]
-   - go back: [Alt-t]
+   - go to declaration: [Control-]]
+   - go back: [Control-t]
 - goto file: gf (same window) or [Control-w]f (new split) on a filename
 - manpage:
    - [Shift-k]
