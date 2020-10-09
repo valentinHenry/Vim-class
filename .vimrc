@@ -50,8 +50,8 @@ inoremap {;<CR> {<CR>};<ESC>O
 map q: <nop>
 nnoremap Q <nop>
 
-" C main
-inoremap main<CR> int main(int argc, char *argv[])<CR>{<CR><CR>}<up><TAB>
+" C main shortcut
+autocmd FileType c inoremap main<CR> int main(int argc, char *argv[])<CR>{<CR><CR>}<up><TAB>
 
 " Header creator
 function HeaderFuncts()

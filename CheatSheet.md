@@ -1,25 +1,25 @@
 Cheat-sheet vim
-==========================
+===============
 
 ## Quitting vim (you actually don't need to)
-- :q (:q! if you don't want to save your work)
-- <C-z> puts vim in background, enter fg command to go back to it. (jobs to see
-  how many of background jobs are running, if many, fg <job-id> works)
+- :q (:q! if you don't want to save your work) add 'a' to quit all
+- [C-z] puts vim in background, enter fg command to go back to it. (jobs to see
+  how many of background jobs are running, if many, fg [job-id] works)
 
 ## Basic movements
 - h j k l or arrow keys
-- <C-D> for page down, <C-U> page up
+- [C-D] for page down, [C-U] page up
 - ^ beginning of line, $ end of line
 - gg beginning of file
 - G end of file
 
 ## Windws, buffers, splits, tabs etc.
-- open a new buffer: :e <file_path>
+- open a new buffer: :e [file_path]
 - split vim:
-   - vertically: :vsp or <C-w>v
-   - horizontaly: :sp or <C-w>s
-   - navigate: <C-w>h, j, k or l
-   - move: <C-w>H, J, K or L
+   - vertically: :vsp or [C-w]v
+   - horizontaly: :sp or [C-w]s
+   - navigate: [C-w]h, j, k or l
+   - move: [C-w]H, J, K or L
 - tabs:
    - create a new tab: :tabnew
 
@@ -30,8 +30,8 @@ Cheat-sheet vim
    - } previous: [], next: ][
 
 ## Search
-- /<stuff_here> search next
-- ?<studd_here> search previous
+- /[stuff_here] search next
+- ?[studd_here] search previous
 - n to go to the next one, N the previous one (for the search)
 
 ## Mods (3 of many)
@@ -40,8 +40,8 @@ Cheat-sheet vim
 
 ### Selection
 - Visual: v
-- Visual line: <Shift-v>
-- Visual block: <C-v>
+- Visual line: [Shift-v]
+- Visual block: [C-v]
 
 ### Insert
 - i: insert (before cursor)
@@ -57,17 +57,17 @@ Cheat-sheet vim
 - Integrated debugger (tbh I have never used it)
 ```
 :packadd termdebug /* to add the built-in plugin */
-:Termdebug [<binary>] /* to launch the terminal */
+:Termdebug [[binary]] /* to launch the terminal */
 ```
 -
 ## Useful Tricks
 - Jump between ctags (think about 'ctag -R .' before):
-   - go to declaration: <Alt-]>
-   - go back: <Alt-T>
-- goto file: gf (same window) or <C-w>f (new tab) on a filename
+   - go to declaration: [Alt-]]
+   - go back: [Alt-T]
+- goto file: gf (same window) or [C-w]f (new tab) on a filename
 - manpage:
-   - <Shift-k>
-   - Man [nb] <word> To enable it:
+   - [Shift-k]
+   - Man [nb] [word] To enable it:
    ```
    runtime ftplugin/man.vim
    ```
@@ -79,4 +79,4 @@ Cheat-sheet vim
 - Functions
 -
 ## Best of all
-- :help <<<---- BEST COMMAND!!!!! (like rly)
+- :help [[[---- BEST COMMAND!!!!! (like rly)
