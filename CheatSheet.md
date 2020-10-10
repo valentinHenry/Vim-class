@@ -54,8 +54,8 @@ Cheat-sheet vim
 - a: append (after cursor)
 - A: append at the end of the line
 - :set paste : pastemod (insert) (:set nopaste to disable)
-- o:
-- O:
+- o: append a line below the cursor
+- O: append a line above the cursor
 
 ## Operators / motions
 - delete: d removes (and yank) stuff
